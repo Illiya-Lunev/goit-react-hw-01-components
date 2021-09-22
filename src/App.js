@@ -1,9 +1,12 @@
 // Компонент профиля
 import Profile from './componets/SocialProfile/Profile';
 import user from './componets/SocialProfile/user.json';
-// Компонент Статистики
+// Компонент статистики
 import Statistics from './componets/Statisctick/Statistics';
 import statisticalData from './componets/Statisctick/statistical-data.json';
+// Компонент друзей
+import Friends from './componets/Friends/Friends';
+import friendsData from './componets/Friends/Friends-data.json';
 
 export default function App() {
   return (
@@ -19,6 +22,7 @@ export default function App() {
       />
 
       <Statistics title="Upload stats" stats={statisticalData} />
+      <Friends friends={friendsData} />
     </div>
   );
 }
