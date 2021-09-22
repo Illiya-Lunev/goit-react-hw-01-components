@@ -6,7 +6,12 @@ export default function Profile(props) {
   return (
     <div className={s.profile}>
       <div className={s.description}>
-        <img src={avatar} alt="Аватар пользователя" className={s.avatar} />
+        <img
+          src={avatar}
+          alt="Аватар пользователя"
+          className={s.avatar}
+          width="280"
+        />
         <p className={s.name}>{name}</p>
         <p className={s.tag}>@{tag}</p>
         <p className={s.location}>{location}</p>
