@@ -1,15 +1,15 @@
 // Компонент профиля
-import Profile from './componets/SocialProfile/Profile';
-import user from './componets/SocialProfile/user.json';
+import Profile from 'componets/SocialProfile/Profile';
+import user from 'componets/SocialProfile/user.json';
 // Компонент статистики
-import Statistics from './componets/Statisctick/Statistics';
-import statisticalData from './componets/Statisctick/statistical-data.json';
+import Statistics from 'componets/Statisctick/Statistics';
+import statisticalData from 'componets/Statisctick/statistical-data.json';
 // Компонент друзей
-import Friends from './componets/Friends/Friends';
-import friendsData from './componets/Friends/Friends-data.json';
+import Friends from 'componets/Friends/Friends';
+import friendsData from 'componets/Friends/Friends-data.json';
 // Компонент Транзакций
-import transactions from './componets/Transaction/transactions.json';
-import TransactionHistory from './componets/Transaction/TransactionHistory';
+import transactions from 'componets/Transaction/transactions.json';
+import TransactionHistory from 'componets/Transaction/TransactionHistory';
 
 export default function App() {
   return (
