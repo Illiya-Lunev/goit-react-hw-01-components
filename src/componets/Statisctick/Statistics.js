@@ -30,7 +30,7 @@ Statistics.propTypes = {
       label: PropTypes.string,
       percentage: PropTypes.number,
     }),
-  ),
+  ).isRequired,
 };
 // Функция  Рендера цветов
 function randomColor() {
