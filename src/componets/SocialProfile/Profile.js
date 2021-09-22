@@ -1,8 +1,15 @@
 import s from './Profile.module.css';
 import PropTypes from 'prop-types';
 
-export default function Profile(props) {
-  const { avatar, name, tag, location, followers, views, likes } = props;
+export default function Profile({
+  avatar,
+  name,
+  tag,
+  location,
+  followers,
+  views,
+  likes,
+}) {
   return (
     <div className={s.profile}>
       <div className={s.description}>
