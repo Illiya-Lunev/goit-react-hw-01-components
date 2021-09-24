@@ -17,7 +17,7 @@ export default function Profile({
           src={avatar}
           alt="Аватар пользователя"
           className={s.avatar}
-          width="280"
+          width="200"
         />
         <p className={s.name}>{name}</p>
         <p className={s.tag}>@{tag}</p>
